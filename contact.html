@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education-Website</title>
+
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+
+<body>
+
+    <!-- ==============================Navbar======================== -->
+    <nav>
+        <div class=" container nav_container">
+            <a href="home.html">
+                <h2>LearnNet</h2>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="open-menu-btn" id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button class="open-menu-btn" id="close-menu-btn"><i class="fa-solid fa-xmark"></i></i></button>
+        </div>
+    </nav>
+
+
+
+
+
+    <section class="contact">
+        <div class="container contact-container">
+            <aside class="contact-aside">
+                <div class="aside- img">
+                    <img src="./images/contact.svg" alt="">
+                </div>
+                <h2>Contact Us</h2>
+                <p>Contact us for any questions, support, collaboration, or feedback. We’re here to help</p>
+                <ul class="contact_detelis">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <h5>+1 (555) 123-4567</h5>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <h5>contact@example.com</h5>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-pin"></i>
+                        <h5>1234 Elm Street, Springfield, IL 62704, USA</h5>
+                    </li>
+                </ul>
+
+                <ul class="contact-social">
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i> </a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i> </a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+
+                </ul>
+            </aside>
+
+
+
+            <form action="https://formspree.io/f/xgvwndbr" method="POST" class="contact_form">
+
+                <div class="form-name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <textarea name="message" placeholder="Massage" rows="7" required></textarea>
+                <button type="submit" b class="btn btn-primary">Send Message</button>
+
+            </form>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <d class="container footer-container">
+            <div class="footer-1">
+                <h4> <a href="home.html" class="footer-lodo">LearnNet</a></h4>
+                <p>Discover a world of learning with our courses, tutorials, workshops, and resources.</p>
+            </div>
+
+
+            <div class="footer-2">
+                <h4>Permalinks</h4>
+
+                <ul class="permalinks">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+
+
+
+            </div>
+            <div class="footer-3">
+                <h4>primacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Refund policy</a></li>
+                </ul>
+
+
+            </div>
+
+
+            <div class="footer4">
+                <h4>Contact</h4>
+                <div class="">
+                    <p>+01 234 567 8910 </p>
+                    <p>vishalkanwal2000@gmail.com</p>
+
+                </div>
+
+                <ul class="footer-social">
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i> </a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i> </a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+
+                </ul>
+
+            </div>
+
+
+    </footer>
+    <div class="copy-right">
+        <p>copy-right &copy;LearnNet </p>
+    </div>
+
+    <!-- main js -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
